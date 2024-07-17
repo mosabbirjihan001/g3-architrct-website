@@ -49,6 +49,12 @@ main > section{
     margin-top: 130px;
 }
 
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+
 
 /* navbar styles */
 .navbar{
@@ -107,13 +113,27 @@ main > section{
     margin-left: 130px;
     max-width: 530px;
 }
-.features-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-}
 
 #quick-list{
     font-weight: 500;
+}
+
+/* some fact styles */
+
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+  
+}
+.fact-card{
+    border: 1px solid rgb(255, 144, 14);
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* responsive media query */
